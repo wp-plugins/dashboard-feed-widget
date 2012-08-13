@@ -3,7 +3,7 @@
 Plugin Name: Dashboard Feed Widget
 Plugin URI: http://wpti.ps/?p=189
 Description: The Dashboard Feed Widget shows the latest Posts from a site of your choice in the top of the WordPress Dashboard.
-Version: 1.0
+Version: 1.0.1
 Author: Piet Bos
 Author URI: http://senlinonline.com
 License: GPLv2 or later
@@ -152,7 +152,7 @@ function dbfw_render_form() {
 		</form>
 
 		<p style="margin-top:15px;">
-			<p style="font-style: italic;font-weight: bold;color: #26779a;"><?php _e('If you have found this plugin at all useful, please consider making a donation:', 'dbfw'); ?>
+			<p style="font-style: italic;font-weight: bold;color: #26779a;"><?php _e('If you have found this plugin at all useful, please give it a favourable rating in the <a href="http://wordpress.org/extend/plugins/dashboard-feed-widget/" rel="nofollow" title="Rate this plugin!">WordPress Plugin Repository</a> and/or consider making a donation:', 'dbfw'); ?>
 				<form class="pp" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="width: 35%;position:relative;">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="BNH7UTKJZ6KP4">

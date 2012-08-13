@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Piet Bos <pietsenlinonline.com>\n"
+"Last-Translator: Piet Bos <piet@senlinonline.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 
@@ -76,8 +76,8 @@ msgstr "Ik wil graag een donatie doen"
 
 #. Text in echo
 #: dashboard-feed-widget.php:155
-msgid "If you have found this plugin at all useful, please consider making a donation:"
-msgstr "Wanneer je deze plugin handig vindt, overweeg dan een donatie:"
+msgid "If you have found this plugin at all useful, please give it a favourable rating in the <a href="http://wordpress.org/extend/plugins/dashboard-feed-widget/" rel="nofollow" title="Rate this plugin!">WordPress Plugin Repository</a> and/or consider making a donation:"
+msgstr "Wanneer je deze plugin handig vindt, geef het dan een gunstige waardering in de <a href=\"http://wordpress.org/extend/plugins/dashboard-feed-widget/\" rel=\"nofollow\" title=\"Geef deze plugin een waardering!\">WordPress Plugin Repository</a> en/of overweeg een donatie:"
 
 #. Text in echo
 #: dashboard-feed-widget.php:184
