@@ -4,7 +4,7 @@ Donate link: http://senl.in/PPd0na
 Tags: dashboard, feed, widget, admin, rss
 Requires at least: 3.0
 Tested up to: 3.4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 
 The Dashboard Feed Widget shows the latest Posts from a site of your choice in the top of the WordPress Dashboard.
@@ -19,6 +19,9 @@ The default settings are:<br />
 - the default number of RSS items is 3
 
 The plugin comes localized for use on sites other than the English language and/or on bi/multilingual websites. In the languages folder you will find the .po, .pot and .mo files. Feel free to send me translations in other languages, I will then add them to this folder and of course I will credit you here.
+
+Current translations:<br />
+- Dutch (by myself)
 
 == Installation ==
 
@@ -41,6 +44,9 @@ For now it doesn't for reasons I do not know yet, but I'm looking into. If you w
 2. Siteadmin Dashboard after installation
 
 == Changelog ==
+
+= 1.0.1 =
+Add current translation to readme.txt, add some text to options page, adjust Dutch translation file
 
 = 1.0 =
 First release

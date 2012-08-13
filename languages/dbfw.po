@@ -70,7 +70,7 @@ msgstr ""
 
 #. Text in echo
 #: dashboard-feed-widget.php:155
-msgid "If you have found this plugin at all useful, please consider making a donation:"
+msgid "If you have found this plugin at all useful, please give it a favourable rating in the <a href="http://wordpress.org/extend/plugins/dashboard-feed-widget/" rel="nofollow" title="Rate this plugin!">WordPress Plugin Repository</a> and/or consider making a donation:"
 msgstr ""
 
 #. Text in echo
