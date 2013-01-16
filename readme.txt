@@ -3,7 +3,7 @@ Contributors: senlin
 Donate link: http://senl.in/PPd0na
 Tags: dashboard, feed, widget, admin, rss
 Requires at least: 3.0
-Tested up to: 3.4.1
+Tested up to: 3.5
 Stable tag: 1.0.1
 License: GPLv2 or later
 
