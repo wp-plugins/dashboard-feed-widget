@@ -165,19 +165,23 @@ function dbfw_render_form() {
 				?>
 				
 			</p>
-			<div class="postbox" style="display: block; float: left; width: 300px; margin: 30px 10px 10px 0;">
-			<h3 class="hndle" style="padding:5px;"><span><?php _e( 'About Piet Bos', 'dbfw' ); ?></span></h3>
-			<div class="inside">
-				<p><img src="http://www.gravatar.com/avatar/<?php echo md5( 'info@senlinonline.com' ); ?>" style="float:left;margin-right:10px;padding:3px;border:1px solid #dfdfdf;"/>
-				<?php _e( 'Piet has been developing websites since 2005 and working with WordPress since 2006. You can find out more information about him via the following links:', 'dbfw' ); ?><br />
-				<a href="http://senlinonline.com/" target="_blank" title="Senlin Online"><?php _e('Senlin Online', 'dbfw'); ?></a><br />
-				<a href="http://wpti.ps/" target="_blank" title="WP TIPS"><?php _e('WP Tips', 'dbfw'); ?></a><br />
-				<a href="http://wpbaseju.mp/" target="_blank" title="Basejump WordPress Theme Piet developed"><?php _e( 'Basejump WordPress Theme that Piet developed', 'dbfw' ); ?></a><br />
-				<a href="https://plus.google.com/108543145122756748887" target="_blank" title="Piet on Google+"><?php _e( 'Google+', 'dbfw' ); ?></a><br />
-				<a href="http://cn.linkedin.com/in/pietbos" target="_blank" title="LinkedIn profile"><?php _e( 'LinkedIn', 'dbfw' ); ?></a><br />
-				<a href="http://twitter.com/SenlinOnline" target="_blank" title="Twitter"><?php _e( 'Twitter: @piethfbos', 'dbfw' ); ?></a><br />
-				<a href="http://github.com/senlin" title="on Github"><?php _e( 'Github', 'dbfw' ); ?></a>
-				<a href="http://profiles.wordpress.org/senlin/" title="on WordPress.org"><?php _e( 'WordPress.org Profile', 'dbfw' ); ?></a></p>
+			<div class="postbox" style="display: block; float: left; width: 500px; margin: 30px 10px 10px 0;">
+				<h3 class="hndle" style="padding:5px;"><span><?php _e( 'About Piet Bos', 'dbfw' ); ?></span></h3>
+				<div class="inside">
+					<img src="http://www.gravatar.com/avatar/<?php echo md5( 'info@senlinonline.com' ); ?>" style="float:left;margin-right:10px;padding:3px;border:1px solid #dfdfdf;"/>
+					<p style="height:60px;padding-top:20px">
+						<?php _e( 'Piet has been developing websites since 2005 and working with WordPress since 2006. You can find out more information about him via the following links:', 'dbfw' ); ?>
+					</p>
+					<ul style="clear:both; margin-top: 20px;">
+						<li><a href="http://senlinonline.com/" target="_blank" title="Senlin Online"><?php _e('Senlin Online', 'dbfw'); ?></a></li>
+						<li><a href="http://wpti.ps/" target="_blank" title="WP TIPS"><?php _e('WP Tips', 'dbfw'); ?></a></li>
+						<li><a href="http://wpbaseju.mp/" target="_blank" title="Basejump WordPress Theme Piet developed"><?php _e( 'Basejump WordPress Theme that Piet developed', 'dbfw' ); ?></a></li>
+						<li><a href="https://plus.google.com/108543145122756748887" target="_blank" title="Piet on Google+"><?php _e( 'Google+', 'dbfw' ); ?></a></li>
+						<li><a href="http://cn.linkedin.com/in/pietbos" target="_blank" title="LinkedIn profile"><?php _e( 'LinkedIn', 'dbfw' ); ?></a></li>
+						<li><a href="http://twitter.com/SenlinOnline" target="_blank" title="Twitter"><?php _e( 'Twitter: @piethfbos', 'dbfw' ); ?></a></li>
+						<li><a href="http://github.com/senlin" title="on Github"><?php _e( 'Github', 'dbfw' ); ?></a></li>
+						<li><a href="http://profiles.wordpress.org/senlin/" title="on WordPress.org"><?php _e( 'WordPress.org Profile', 'dbfw' ); ?></a></li>
+					</ul>
 				</div>
 			</div>
 
