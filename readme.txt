@@ -34,10 +34,6 @@ Thanks for your understanding and cooperation.
 
 = Wordpress =
 
-Quick installation: [Install now](http://coveredwebservices.com/wp-plugin-install/?plugin=dashboard-feed-widget) !
-
- &hellip; OR &hellip;
-
 Search for "SO Dashboard Feed Widget" and install with the **Plugins > Add New** back-end page.
 
  &hellip; OR &hellip;
@@ -46,7 +42,7 @@ Follow these steps:
 
 1. Download zip file.
 2. Upload the zip file via the Plugins > Add New > Upload page &hellip; OR &hellip; unpack and upload with your favorite FTP client to the /plugins/ folder.
-3. Activate the plugin on the Plug-ins page.
+3. Activate the plugin on the Plugins page.
 
 Done!
 
