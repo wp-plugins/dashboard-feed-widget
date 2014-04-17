@@ -198,7 +198,7 @@ $so_dbfw_load = new DBFW_Load();
  * @since 0.1
  */
 register_activation_hook( __FILE__, 'dbfw_add_defaults' ); 
-register_deactivation_hook( __FILE__, 'dbfw_delete_plugin_options' );
+//register_deactivation_hook( __FILE__, 'dbfw_delete_plugin_options' );
 
 add_action( 'admin_menu', 'dbfw_add_options_page' );
 
