@@ -219,10 +219,8 @@ function dbfw_add_defaults() {
 	$tmp = get_option( 'dbfw_options' );
 	
 	if ( ( $tmp['chk_default_options_db'] == '1' ) || ( ! is_array( $tmp ) ) ) {
-		
-		delete_option( 'dbfw_options' ); // so we don't have to reset all the 'off' checkboxes too! (don't think this is needed but leave for now)
-		
-		$arr = array(
+	
+		$defaults = array(
 			'widget_title' => __( 'Recent Updates', 'dashboard-feed-widget' ),
 			'feed_url' => 'http://wpti.ps/feed/',
 			'drp_select_box' => '3',
@@ -230,9 +228,12 @@ function dbfw_add_defaults() {
 			'chk_default_options_db' => ''
 		);
 		
-		update_option( 'dbfw_options', $arr );
+		update_option( 'dbfw_options', $defaults );
+	
 	}
+		
 }
+
 
 /**
  * Delete options table entries ONLY when plugin deactivated AND deleted 
