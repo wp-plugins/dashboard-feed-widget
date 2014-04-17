@@ -146,8 +146,9 @@ function dbfw_render_form() { ?>
 				</div> <!-- end .top -->
 				
 				<ul>
-					<li><a href="http://senlinonline.com/" target="_blank" title="Senlin Online"><?php _e('Senlin Online', 'dashboard-feed-widget'); ?></a></li>
-					<li><a href="http://wpti.ps/" target="_blank" title="WP TIPS"><?php _e('WP Tips', 'dashboard-feed-widget'); ?></a></li>
+					<li><a href="https://senlinonline.com/plus/" target="_blank" title="SO PLUS, Premium WordPress Plugins by Senlin Online"><?php _e( 'SO PLUS, Premium WordPress Plugins by Senlin Online', 'dashboard-feed-widget' ); ?></a></li>
+					<li><a href="http://senlinonline.com/" target="_blank" title="Senlin Online"><?php _e( 'Senlin Online', 'dashboard-feed-widget' ); ?></a></li>
+					<li><a href="http://wpti.ps/" target="_blank" title="WP TIPS"><?php _e( 'WP Tips', 'dashboard-feed-widget' ); ?></a></li>
 					<li><a href="https://plus.google.com/+PietBos" target="_blank" title="Piet on Google+"><?php _e( 'Google+', 'dashboard-feed-widget' ); ?></a></li>
 					<li><a href="http://cn.linkedin.com/in/pietbos" target="_blank" title="LinkedIn profile"><?php _e( 'LinkedIn', 'dashboard-feed-widget' ); ?></a></li>
 					<li><a href="http://twitter.com/piethfbos" target="_blank" title="Twitter"><?php _e( 'Twitter: @piethfbos', 'dashboard-feed-widget' ); ?></a></li>
