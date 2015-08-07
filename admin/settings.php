@@ -128,7 +128,7 @@ function dbfw_render_form() { ?>
 		<p class="rate-this-plugin">
 			<?php
 			/* Translators: 1 is link to WP Repo */
-			printf( __( 'If you have found this plugin at all useful, please give it a favourable rating in the <a href="%s" title="Rate this plugin!">WordPress Plugin Repository</a>.', 'dashboard-feed-widget' ), 
+			printf( __( 'If you have found this plugin at all useful, please give it a favourable rating in the <a href="%1$s" title="Rate this plugin!">WordPress Plugin Repository</a>.', 'dashboard-feed-widget' ), 
 				esc_url( 'http://wordpress.org/support/view/plugin-reviews/dashboard-feed-widget' )
 			);
 			?>
@@ -137,7 +137,7 @@ function dbfw_render_form() { ?>
 		<p class="support">
 			<?php
 			/* Translators: 1 is link to Github Repo */
-			printf( __( 'If you have an issue with this plugin or want to leave a feature request, please note that I give <a href="%s" title="Support or Feature Requests via Github">support via Github</a> only.', 'dashboard-feed-widget' ), 
+			printf( __( 'If you have an issue with this plugin or want to leave a feature request, please note that I give <a href="%1$s" title="Support or Feature Requests via Github">support via Github</a> only.', 'dashboard-feed-widget' ), 
 				esc_url( 'https://github.com/senlin/so-dashboard-feed-widget/issues' )
 			);
 			?>
@@ -153,7 +153,7 @@ function dbfw_render_form() { ?>
 				<div class="top">
 					<img class="author-image" src="http://www.gravatar.com/avatar/<?php echo md5( 'info@senlinonline.com' ); ?>" />
 					<p>
-						<?php printf( __( 'Hi, my name is Piet Bos, I hope you like this plugin! Please check out any of my other plugins on <a href="%s" title="SO WP Plugins">SO WP Plugins</a>. You can find out more information about me via the following links:', 'dashboard-feed-widget' ),
+						<?php printf( __( 'Hi, my name is Piet Bos, I hope you like this plugin! Please check out any of my other plugins on <a href="%1$s" title="SO WP Plugins">SO WP Plugins</a>. You can find out more information about me via the following links:', 'dashboard-feed-widget' ),
 							esc_url( 'http://so-wp.com' )
 						); ?>
 					</p>
